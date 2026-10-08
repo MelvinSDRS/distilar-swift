@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # The oldest toolchain the package accepts: Swift 6.3.
+          - name: Xcode 26.4
+            runner: macos-26
+            xcode: /Applications/Xcode_26.4.1.app
+          # The current one, on its own image.
+          - name: Xcode 27
+            runner: xcode-27
+            xcode: ""
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Select Xcode
+        if: matrix.xcode != ''
+        run: sudo xcode-select --switch "${{ matrix.xcode }}"
+
+      - name: Show the toolchain
+        run: xcodebuild -version && swift --version
+
+      - name: Test on macOS
+        run: swift test
+
+      - name: Test on iOS
+        run: |
+          # The newest iOS runtime's first iPhone, whatever the image ships.
+          device=$(xcrun simctl list devices available --json | python3 -c '
+          import json, sys
+          runtimes = json.load(sys.stdin)["devices"]
+          ios = sorted((r for r in runtimes if ".iOS-" in r), reverse=True)
+          print(next(d["udid"] for r in ios for d in runtimes[r] if d["name"].startswith("iPhone")))
+          ')
+          xcodebuild test -scheme Distilar -destination "id=$device"
+
+      - name: Build the Example app
+        run: >
+          xcodebuild build
+          -project Example/DistilarExample.xcodeproj
+          -scheme DistilarExample
+          -destination "generic/platform=iOS Simulator"

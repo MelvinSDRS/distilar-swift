@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1A1000000000000000000B4 /* Distilar in Frameworks */ = {isa = PBXBuildFile; productRef = D1A1000000000000000000B5 /* Distilar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1A1000000000000000000C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1A1000000000000000000A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A1000000000000000000B0;
+			remoteInfo = DistilarExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1A1000000000000000000A5 /* DistilarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistilarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A1000000000000000000A6 /* DistilarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistilarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A1000000000000000000A7 /* DistilarExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DistilarExample-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D1A1000000000000000000A3 /* DistilarExample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DistilarExample;
+			sourceTree = "<group>";
+		};
+		D1A1000000000000000000A4 /* DistilarExampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DistilarExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A1000000000000000000B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A1000000000000000000B4 /* Distilar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A1000000000000000000C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1A1000000000000000000A1 = {
+			isa = PBXGroup;
+			children = (
+				D1A1000000000000000000A7 /* DistilarExample-Info.plist */,
+				D1A1000000000000000000A3 /* DistilarExample */,
+				D1A1000000000000000000A4 /* DistilarExampleUITests */,
+				D1A1000000000000000000A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A1000000000000000000A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A1000000000000000000A5 /* DistilarExample.app */,
+				D1A1000000000000000000A6 /* DistilarExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A1000000000000000000B0 /* DistilarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A1000000000000000000B7 /* Build configuration list for PBXNativeTarget "DistilarExample" */;
+			buildPhases = (
+				D1A1000000000000000000B1 /* Sources */,
+				D1A1000000000000000000B2 /* Frameworks */,
+				D1A1000000000000000000B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D1A1000000000000000000A3 /* DistilarExample */,
+			);
+			name = DistilarExample;
+			packageProductDependencies = (
+				D1A1000000000000000000B5 /* Distilar */,
+			);
+			productName = DistilarExample;
+			productReference = D1A1000000000000000000A5 /* DistilarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1A1000000000000000000C0 /* DistilarExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A1000000000000000000C7 /* Build configuration list for PBXNativeTarget "DistilarExampleUITests" */;
+			buildPhases = (
+				D1A1000000000000000000C1 /* Sources */,
+				D1A1000000000000000000C2 /* Frameworks */,
+				D1A1000000000000000000C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1A1000000000000000000C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D1A1000000000000000000A4 /* DistilarExampleUITests */,
+			);
+			name = DistilarExampleUITests;
+			productName = DistilarExampleUITests;
+			productReference = D1A1000000000000000000A6 /* DistilarExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A1000000000000000000A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					D1A1000000000000000000B0 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D1A1000000000000000000C0 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D1A1000000000000000000B0;
+					};
+				};
+			};
+			buildConfigurationList = D1A1000000000000000000D7 /* Build configuration list for PBXProject "DistilarExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = D1A1000000000000000000A1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D1A1000000000000000000B6 /* XCLocalSwiftPackageReference ".." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D1A1000000000000000000A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A1000000000000000000B0 /* DistilarExample */,
+				D1A1000000000000000000C0 /* DistilarExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A1000000000000000000B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A1000000000000000000C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A1000000000000000000B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A1000000000000000000C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1A1000000000000000000C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1A1000000000000000000B0 /* DistilarExample */;
+			targetProxy = D1A1000000000000000000C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1A1000000000000000000D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1A1000000000000000000D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1A1000000000000000000B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DistilarExample-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Distilar Example";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.distilar.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1A1000000000000000000B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DistilarExample-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Distilar Example";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.distilar.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1A1000000000000000000C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.distilar.example.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DistilarExample;
+			};
+			name = Debug;
+		};
+		D1A1000000000000000000C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.distilar.example.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DistilarExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A1000000000000000000B7 /* Build configuration list for PBXNativeTarget "DistilarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A1000000000000000000B8 /* Debug */,
+				D1A1000000000000000000B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A1000000000000000000C7 /* Build configuration list for PBXNativeTarget "DistilarExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A1000000000000000000C8 /* Debug */,
+				D1A1000000000000000000C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A1000000000000000000D7 /* Build configuration list for PBXProject "DistilarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A1000000000000000000D8 /* Debug */,
+				D1A1000000000000000000D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D1A1000000000000000000B6 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1A1000000000000000000B5 /* Distilar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Distilar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D1A1000000000000000000A0 /* Project object */;
+}

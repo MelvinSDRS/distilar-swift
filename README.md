@@ -149,3 +149,7 @@ TEST_RUNNER_DISTILAR_URL=http://127.0.0.1:8080 TEST_RUNNER_DISTILAR_KEY=dpk_… 
 ```
 
 Without those variables the live tests are skipped, and `swift test` runs the rest.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
